@@ -1,0 +1,24 @@
+﻿Build started 2019/1/28 15:19:42.
+     1>Project "C:\Users\USER\Desktop\sdk\now_sdk2_16split2\Video_Codec_SDK_8.2.16\Samples\AppEncode\AppEncCuda\AppEncCuda.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         D:\vs2013\VC\bin\x86_amd64\CL.exe /c /I..\..\NvCodec /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\USER\Desktop\sdk\now_sdk2_16split2\Video_Codec_SDK_8.2.16\Samples\x64.Debug\AppEncCuda\\" /Fd"C:\Users\USER\Desktop\sdk\now_sdk2_16split2\Video_Codec_SDK_8.2.16\Samples\x64.Debug\AppEncCuda\vc120.pdb" /Gd /TP /errorReport:prompt ..\..\NvCodec\NvEncoder\NvEncoder.cpp ..\..\NvCodec\NvEncoder\NvEncoderCuda.cpp AppEncCuda.cpp
+         AppEncCuda.cpp
+     1>c:\users\user\desktop\sdk\now_sdk2_16split2\video_codec_sdk_8.2.16\samples\nvcodec\nvencoder\nvEncodeAPI.h(637): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>E:\opencv3\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>E:\opencv3\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>E:\opencv3\opencv\build\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         NvEncoderCuda.cpp
+     1>c:\users\user\desktop\sdk\now_sdk2_16split2\video_codec_sdk_8.2.16\samples\nvcodec\nvencoder\nvEncodeAPI.h(637): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         NvEncoder.cpp
+     1>c:\users\user\desktop\sdk\now_sdk2_16split2\video_codec_sdk_8.2.16\samples\nvcodec\nvencoder\nvEncodeAPI.h(637): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         Generating Code...
+       Link:
+         D:\vs2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\USER\Desktop\sdk\now_sdk2_16split2\Video_Codec_SDK_8.2.16\Samples\x64.Debug\AppEncCuda.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\NvCodec\Lib\x64 /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64" cuda.lib cudadevrt.lib cudart.lib cudart_static.lib nvcuvid.lib OpenCL.lib opencv_ts300d.lib opencv_world300d.lib cuda.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\USER\Desktop\sdk\now_sdk2_16split2\Video_Codec_SDK_8.2.16\Samples\x64.Debug\AppEncCuda.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\USER\Desktop\sdk\now_sdk2_16split2\Video_Codec_SDK_8.2.16\Samples\x64.Debug\AppEncCuda.lib" /MACHINE:X64 C:\Users\USER\Desktop\sdk\now_sdk2_16split2\Video_Codec_SDK_8.2.16\Samples\x64.Debug\AppEncCuda\NvEncoder.obj
+         C:\Users\USER\Desktop\sdk\now_sdk2_16split2\Video_Codec_SDK_8.2.16\Samples\x64.Debug\AppEncCuda\NvEncoderCuda.obj
+         C:\Users\USER\Desktop\sdk\now_sdk2_16split2\Video_Codec_SDK_8.2.16\Samples\x64.Debug\AppEncCuda\AppEncCuda.obj
+         AppEncCuda.vcxproj -> C:\Users\USER\Desktop\sdk\now_sdk2_16split2\Video_Codec_SDK_8.2.16\Samples\x64.Debug\AppEncCuda.exe
+     1>Done Building Project "C:\Users\USER\Desktop\sdk\now_sdk2_16split2\Video_Codec_SDK_8.2.16\Samples\AppEncode\AppEncCuda\AppEncCuda.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.71
