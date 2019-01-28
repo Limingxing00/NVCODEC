@@ -1,5 +1,6 @@
 # NVCODEC
 I use NVENC and NVDEC to deal with 16bit medical image
+![pipeline](https://github.com/Limingxing00/NVCODEC/blob/master/CODE/img.jpg)
 
 ## my computer
 * windows10
