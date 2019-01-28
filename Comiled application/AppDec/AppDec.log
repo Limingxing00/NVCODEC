@@ -1,9 +1,8 @@
-﻿Build started 2019/1/28 15:21:09.
+﻿Build started 2019/1/28 16:46:41.
      1>Project "C:\Users\USER\Desktop\sdk\now_sdk2_16split2\Video_Codec_SDK_8.2.16\Samples\AppDecode\AppDec\AppDec.vcxproj" on node 2 (Rebuild target(s)).
      1>PreBuildEvent:
          del C:\Users\USER\Desktop\sdk\now_sdk2_16split2\Video_Codec_SDK_8.2.16\Samples\x64.Debug\*.dll
          :VCEnd
-         找不到 C:\Users\USER\Desktop\sdk\now_sdk2_16split2\Video_Codec_SDK_8.2.16\Samples\x64.Debug\*.dll
        ClCompile:
          D:\vs2013\VC\bin\x86_amd64\CL.exe /c /I..\..\External\FFmpeg\include /I..\..\NvCodec /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\USER\Desktop\sdk\now_sdk2_16split2\Video_Codec_SDK_8.2.16\Samples\x64.Debug\AppDec\\" /Fd"C:\Users\USER\Desktop\sdk\now_sdk2_16split2\Video_Codec_SDK_8.2.16\Samples\x64.Debug\AppDec\vc120.pdb" /Gd /TP /errorReport:prompt ..\..\NvCodec\NvDecoder\NvDecoder.cpp AppDec.cpp
          AppDec.cpp
@@ -24,4 +23,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:04.06
+Time Elapsed 00:00:05.75
