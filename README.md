@@ -26,7 +26,7 @@ You will watch help. The same as to AppDec.exe.
 "-codec" choose encoder type(hevc h264)  
 "-qmax" I\P\B qmax  
 ### decoder
-`.\AppDec.exe -i C:\Users\USER\Desktop\high.mkv -i2 C:\Users\USER\Desktop\low.mkv -o C:\Users\USER\Desktop\PSNR\nvdec\high -o2 C:\Users\USER\Desktop\PSNR\nvdec\low  -gpu 0`  
+`.\AppDec.exe -i ...\high.mkv -i2 ...\low.mkv -o path_16bit  -gpu 0`  
 "-i"   encoded high 8bits  
 "-i2"   encoded low 8bits  
 "-o"  restored images
