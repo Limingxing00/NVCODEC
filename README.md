@@ -17,7 +17,8 @@ You will watch help. The same as to AppDec.exe.
 
 ### encoder
 `.\AppEncCuda.exe -i path_16bit -o ...\high.mkv -o2 ...\low.mkv -s 2048x788 -num 754 -if nv12 -gpu 0 -codec hevc -preset default -profile main -rc vbr_hq -fps 25 -gop 150 -qmin 1 -qmax 31  `  
-"-i"   store original files in the directory (only 16bit TIFF, like 00001.tiff,00002.tiff...)  
+"-i"   store original files in the directory (only 16bit TIFF, like 00000.tiff,00001.tiff...)  
+        P.S. First file is 00000.tiff, or it is error in opencv.  
 "-o"   encoded high 8bits  
 "-o2"   encoded low 8bits  
 "-s"   image size  
@@ -27,10 +28,10 @@ You will watch help. The same as to AppDec.exe.
 "-codec" choose encoder type(hevc h264)  
 "-qmax" I\P\B qmax  
 ### decoder
-`.\AppDec.exe -i ...\high.mkv -i2 ...\low.mkv -o path_16bit  -gpu 0`  
+`.\AppDec.exe -i ...\high.mkv -i2 ...\low.mkv -o2 path_16bit  -gpu 0`  
 "-i"   encoded high 8bits  
 "-i2"   encoded low 8bits  
-"-o"  restored images
+"-o2"  restored images
 "-gpu" choose a nvidia gpu(hevc needs more than GTX 950)  
 
 And you don't need care decoder parameters usually.  
