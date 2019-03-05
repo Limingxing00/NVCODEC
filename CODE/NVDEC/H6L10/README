@@ -1,1 +1,3 @@
 High 6bits and low 10 bits
+# MY SETTING
+-i C:\Users\USER\Desktop\H6L10_high00001.mkv -i2 C:\Users\USER\Desktop\H6L10_low00001.mkv -o C:\Users\USER\Desktop\PSNR\nvdec\dataset2  -gpu 0
