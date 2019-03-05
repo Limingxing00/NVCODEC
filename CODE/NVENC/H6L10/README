@@ -1,1 +1,3 @@
 High 6bits and low 10 bits
+# my setting  
+`-i D:\Liu_Dong\Brain_map_compression\ZhangYueYi\raw_brain\Raw.ome.tif -o C:\Users\USER\Desktop -o2 C:\Users\USER\Desktop -s 2048x788 -if p010 -gpu 0 -codec hevc -preset default -profile main10 -rc vbr_hq -fps 25 -gop 150 -bitrate 2K -qmin 1 -qmax 11`
