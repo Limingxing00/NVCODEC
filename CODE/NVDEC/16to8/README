@@ -1,0 +1,3 @@
+use x^= sqrt(x+1)-1
+
+-i C:\Users\USER\Desktop\16to8_00001.mkv  -o C:\Users\USER\Desktop\PSNR\nvdec\dataset2  -gpu 0
