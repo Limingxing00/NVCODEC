@@ -2,13 +2,13 @@
 I use NVENC and NVDEC to deal with 16bit medical image
 ![pipeline](https://github.com/Limingxing00/NVCODEC/blob/master/CODE/img.jpg)
 
-### Tip. My project is different from NVIDIA CODEC. I modified the source code to make it suitable for grayscale images (only for grayscale images).
+### Tip. My project is different from [NVIDIA CODEC](https://developer.nvidia.com/nvidia-video-codec-sdk#NVDECFeatures). I modified the source code to make it suitable for grayscale images (only for grayscale images).
 
 ## my computer
 * windows10
 * cuda 9.2
 * opencv 3.0.0
-* vs2013
+* vs2015
 
 ## compiled appplication  
 I have compiled encoder and decoder. You can directly use it. (.../NVCODEC/Comiled application)  
