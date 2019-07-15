@@ -1,0 +1,1 @@
+-i C:\Users\USER\Desktop\high.mkv -i2 C:\Users\USER\Desktop\low.mkv -o C:\Users\USER\Desktop\PSNR\nvdec\high -o2 C:\Users\USER\Desktop\PSNR\nvdec\low -outplanar -gpu 0
