@@ -3,7 +3,7 @@ I use NVENC and NVDEC to deal with 16bit medical image
 ![pipeline](https://github.com/Limingxing00/NVCODEC/blob/master/CODE/img.jpg)
 
 ### Tip. My project is different from [NVIDIA CODEC](https://developer.nvidia.com/designworks/video_codec_sdk/downloads/v9.0). I modified the source code to make it suitable for grayscale images (only for grayscale images).  
-Specifically, we modified ".../Samples/AppEncode/AppEncCuda/AppEncCuda.cpp" to control the encoder, and modified ".../Samples/AppDecode/AppDec/AppDec.cpp" to control the decoder. Different modifications are shown [here].(https://github.com/Limingxing00/NVCODEC/tree/master/CODE)
+Specifically, we modified ".../Samples/AppEncode/AppEncCuda/AppEncCuda.cpp" to control the encoder, and modified ".../Samples/AppDecode/AppDec/AppDec.cpp" to control the decoder. Different modifications are shown [here](https://github.com/Limingxing00/NVCODEC/tree/master/CODE).
 
 ## my computer
 * windows10
