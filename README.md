@@ -20,7 +20,7 @@ You will watch help. The same as to AppDec.exe.
 
 ### encoder
 `.\AppEncCuda.exe -i path_16bit -o ...\high.mkv -o2 ...\low.mkv -s 2048x788 -num 754 -if nv12 -gpu 0 -codec hevc -preset default -profile main -rc vbr_hq -fps 25 -gop 150 -qmin 1 -qmax 31  `  
-"-i"   store original files in the directory (5-dimensional dataset encapsulated in OME-TIFF, such as Raw.ome.tif)
+"-i"   store original files in the directory (5-dimensional dataset encapsulated in OME-TIFF, such as Raw.ome.tif)  
 "-o"   encoded high 6/8/10bits  
 "-o2"   encoded low 6/8/10bits  
 "-s"   image size(default: 2048x788) 
